@@ -1,0 +1,13 @@
+1. Redux is used for state management.
+2. The data in react always flows from parent   to child components which makes it unidirectional.
+3. So data can't be send from childs to parents like bottom to top.
+4. So hence data can be send from top to bottom (parent to child).
+5. This problem is overcome by react introducing the new concept called Prop Drilling.
+6. But Prop Drilling becomes a problem of passing the data from one component to another component.
+7. for example if you want to pass a data to from component A to component C then you need to pass the data to all the components that are in between component A and component C.
+8. Hence this is called prop drilling problem because everytime we are passing props.
+9. So for this problem we have two solutions.
+10. 1.Redux
+    2. (useContext, contextAPI).
+11.
+   

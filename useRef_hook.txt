@@ -1,0 +1,8 @@
+uncontrolled forms.
+1. In react we have hooks and it provides a hook called useRef.
+2. useRef is used most of the time for the uncontrolled forms.
+3. uncontrolled forms means one-time value retrieval (e.g. on submit), validating on submit.
+4. whenever we use ref means we are playing with dom.
+ 5. It returns the whole tag 
+(<input type="text" ref={useref}/> )
+6. With the help of this we can access the value of that tag by using "value" attribute 
